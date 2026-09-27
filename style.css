@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #90d29f;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+/*const apiKey = 'e6437709bcab4f20876199ea45675962';
+#b83a3a*/
+.container {
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 47%);
+    border-radius: 8px;
+    text-align:center;
+    align-items: center;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 1000,
+    'GRAD' 0,
+    'opsz' 24
+  }
+h3{
+    font-size: 20px;
+    font-family: cursive;
+}
+h1 {
+    font-size: 40px;
+    color: #415842;
+}
+
+input[type="text"] {
+    display: flex;
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+button {
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 10vw;
+    margin: 15px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#recipes{
+    display: flex;
+    flex-flow: row;
+    margin-top: 20px;
+    text-align:center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.recipe-card {
+    
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.recipe-card:hover {
+    background-color: #90d2a168;
+}
+
+.recipe-card h3 {
+    font-family: cursive;
+    font-size: 25px;
+    margin: 0;
+    color: #333;
+}
+
+.recipe-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.recipe-card img:hover {
+    
+    transform: scale(1.2); /* Scale image to 120% on hover */
+
+}
+
+#recipe-details {
+    text-align: left;
+    margin-top: 30px;
+}
+img{
+    filter: contrast(1.1);
+object-fit: cover;
+transition: transform 0.3s ease-in-out;
+}
+#recipe-details h2 {
+    font-family: cursive;
+    font-size: 27px;
+    margin-top: 0;
+}
+
+#recipe-details p {
+    margin: 5px 0;
+}
